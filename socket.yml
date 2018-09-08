@@ -23,6 +23,7 @@ classes:
 
 endpoints:
   add:
+    private: true
     description: Add Address
     inputs:
       required:
@@ -64,6 +65,7 @@ endpoints:
             type: string
 
   update:
+    private: true
     description: Update Address
     inputs:
       required:
@@ -102,6 +104,7 @@ endpoints:
             type: string
 
   delete:
+    private: true
     description: Add Address
     inputs:
       properties:
